@@ -17,6 +17,7 @@
 		5D6083542C7D11F300F8DC1E /* LoadingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6083532C7D11F300F8DC1E /* LoadingManager.swift */; };
 		5D6083562C7D122400F8DC1E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6083552C7D122400F8DC1E /* LoadingView.swift */; };
 		5D60835A2C7D125900F8DC1E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6083592C7D125900F8DC1E /* WelcomeView.swift */; };
+		5D60835C2C7D170000F8DC1E /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D60835B2C7D170000F8DC1E /* WeatherManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		5D6083532C7D11F300F8DC1E /* LoadingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingManager.swift; sourceTree = "<group>"; };
 		5D6083552C7D122400F8DC1E /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		5D6083592C7D125900F8DC1E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		5D60835B2C7D170000F8DC1E /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				5D6083532C7D11F300F8DC1E /* LoadingManager.swift */,
+				5D60835B2C7D170000F8DC1E /* WeatherManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D60835C2C7D170000F8DC1E /* WeatherManager.swift in Sources */,
 				5D60835A2C7D125900F8DC1E /* WelcomeView.swift in Sources */,
 				5D60832A2C7D0FB600F8DC1E /* ContentView.swift in Sources */,
 				5D6083562C7D122400F8DC1E /* LoadingView.swift in Sources */,
